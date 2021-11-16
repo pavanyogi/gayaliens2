@@ -1,0 +1,299 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+
+.gayaliens_container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.gayaliens_banner {
+    position: relative;
+    background: #000000;
+    color: #ffffff;
+    height: auto;
+    vertical-align: middle;
+    background-image: url(images-gayalien/background.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    background-size: cover;
+}
+
+.gayaliens_banner .gayaliens_container {
+    padding: 90px 40px;
+    padding-top: 120px;
+}
+
+.gayaliens_banner_logo {
+    text-align: center;
+}
+
+.gayaliens_banner_logo img {
+    width: auto;
+    max-width: 100%;
+}
+
+.gayaliens_banner_logo h2 {
+    color: rgb(36, 250, 0);
+    font-size: 80px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.15;
+    margin: 15px auto;
+}
+
+.gayaliens_banner_logo h4 {
+    font-size: 34px;
+    color: rgb(36, 250, 0);
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.gayaliens_main {
+    float: left;
+    width: 100%;
+    background-color: #d008c1;
+}
+
+.gayaliens_main .gayaliens_container {
+    padding: 60px 40px;
+}
+
+.gayaliens_main h3 {
+    font-size: 42px;
+    color: rgb(36, 250, 0);
+    font-weight: 300;
+    margin: 0 0 30px;
+}
+
+.gayaliens_main h5 {
+    color: #d5d5d5;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.75;
+    margin: 0 auto 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gayaliens_aliens,
+.gayaliens_naked {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gayaliens_aliens img {
+    width: 16.666666666667%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.gayaliens_naked_images {
+    width: 18.3%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.gayaliens_naked_images img {
+    width: 100%;
+    border: 1px solid;
+}
+
+.gayaliens_naked_images h5,
+.gayaliens_team_artist_images h5 {
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.gayaliens_team_artist_images a {
+    font-size: 20px;
+}
+
+.gayaliens_team_artist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gayaliens_team_artist_images {
+    text-align: center;
+}
+
+.gayaliens_team_artist_images h3 {
+    color: #000;
+    font-size: 38px;
+    text-align: center;
+    line-height: 1.25;
+    margin: 0 auto 30px;
+    font-weight: 200;
+}
+
+.gayaliens_roadmap {
+    float: left;
+    width: 100%;
+    vertical-align: top;
+    background-color: #010002;
+}
+
+.gayaliens_roadmap .gayaliens_container {
+    padding: 60px 40px;
+}
+
+.gayaliens_roadmap h2 {
+    color: rgb(30, 250, 1);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 auto 30px;
+}
+
+.gayaliens_roadmap_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gayaliens_roadmap_images img {
+    margin-bottom: 20px;
+    width: auto;
+    max-width: 95%;
+}
+
+.gayaliens_title {
+    text-align: center;
+}
+
+.gayaliens_roadmap ul {
+    color: rgb(213, 213, 213)
+}
+
+.gayaliens_roadmap li {
+    line-height: 1.75;
+}
+
+.gayaliens_footer .gayaliens_container {
+    padding: 60px 40px;
+}
+
+.gayaliens_footer {
+    float: left;
+    text-align: center;
+    width: 100%;
+    background-color: #f4ecec;
+}
+
+.gayaliens_footer h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.gayaliens_footer h4 {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.gayaliens_footer i {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.gayaliens_roadmap_image_details {
+    width: 33.33%;
+    text-align: center;
+}
+
+
+/*responsive*/
+@media (min-width: 320px) and (max-width: 767px) {
+    .gayaliens_banner .gayaliens_container {
+        padding: 80px 20px;
+        padding-top: 50px;
+    }
+
+    .gayaliens_banner_logo h2 {
+        font-size: 30px;
+    }
+
+    .gayaliens_banner_logo h4 {
+        font-size: 20px;
+    }
+
+    .gayaliens_main .gayaliens_container {
+        padding: 30px 20px;
+    }
+
+    .gayaliens_main h3 {
+        font-size: 25px;
+    }
+
+    .gayaliens_main h5 {
+        font-size: 24px;
+    }
+
+    .gayaliens_aliens img {
+        width: 100%;
+    }
+
+    .gayaliens_naked_images {
+        width: 100%;
+    }
+
+    .gayaliens_team_artist_images h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .gayaliens_team_artist_images {
+        margin-bottom: 20px;
+    }
+
+    .gayaliens_roadmap h2 {
+        font-size: 23px;
+    }
+
+    .gayaliens_roadmap .gayaliens_container {
+        padding: 30px 20px;
+    }
+
+    .gayaliens_footer .gayaliens_container {
+        padding: 30px 20px;
+    }
+
+    .gayaliens_footer h2 {
+        font-size: 26px;
+    }
+
+    .gayaliens_footer h4 {
+        margin: 20px 0;
+    }
+
+    .gayaliens_roadmap_image_details{
+        width: 100%;
+    }
+
+}
